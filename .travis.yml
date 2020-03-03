@@ -13,7 +13,7 @@ services:
 matrix:
    include:
       - os: linux
-        env: PROJ=ffmpeg OS=android-arm
+        env: PROJ=ffmpeg OS=android-arm 1=nodeploy
         install: true
         script: ./ci/install-travis.sh
 #      - os: linux
